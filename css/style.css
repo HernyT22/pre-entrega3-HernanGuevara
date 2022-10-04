@@ -1,0 +1,304 @@
+/*modificaciones principales*/
+* {
+  padding: 0;
+  left: 0;
+  color: #EFAD1F;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Secular One', sans-serif;
+  -webkit-text-stroke: 1px black; }
+
+.columna {
+  grid-template-areas: " header " " section " " footer ";
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #D3D3D3; }
+
+/*cierro modificaciones principales*/
+/*comienza header*/
+.header {
+  grid-area: header;
+  position: relative; }
+  .header .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#7A9CBD, #D3D3D3);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .header .titulo .texto_titulo {
+      border-bottom: dashed 2px #EFAD1F;
+      font-size: 40px; }
+  .header .slogan {
+    font-size: 20px; }
+
+/*cierra header*/
+/*comienza section*/
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9fr;
+  grid-template-areas: "peces" "filtros" "calentadores" "herramientas" "peceras" "sustratos" "luces" "plantas" "insumos";
+  /*index*/ }
+  .section .articulo-1 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-1:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-2 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-2:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-3 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-3:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-4 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-4:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-5 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-5:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-6 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-6:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-7 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-7:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-8 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-8:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-9 {
+    width: 97%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px;
+    transition: height 1s;
+    font-size: 25px; }
+  .section .articulo-9:hover {
+    height: 265px;
+    filter: opacity(50%); }
+  .section .articulo-1 {
+    grid-area: peces;
+    background-image: url(../imagenes/peces.jfif); }
+  .section .articulo-2 {
+    grid-area: filtros;
+    background-image: url(../imagenes/filtro.jfif); }
+  .section .articulo-3 {
+    grid-area: calentadores;
+    background-image: url(../imagenes/calentadores.jfif); }
+  .section .articulo-4 {
+    grid-area: herramientas;
+    background-image: url(../imagenes/herramientas.jfif); }
+  .section .articulo-5 {
+    grid-area: peceras;
+    background-image: url(../imagenes/peceras.jfif); }
+  .section .articulo-6 {
+    grid-area: sustratos;
+    background-image: url(../imagenes/sustratos.jfif); }
+  .section .articulo-7 {
+    grid-area: luces;
+    background-image: url(../imagenes/luces.jfif); }
+  .section .articulo-8 {
+    grid-area: plantas;
+    background-image: url(../imagenes/plantas.jfif); }
+  .section .articulo-9 {
+    grid-area: insumos;
+    background-image: url(../imagenes/insumos.jpg); }
+
+/*cierro section*/
+/*abro fotter*/
+.footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "Insta" "Ubi" "Cono" "Coti"; }
+  .footer .Insta {
+    grid-area: Insta; }
+  .footer .Ubi {
+    grid-area: Ubi; }
+  .footer .Cono {
+    grid-area: Cono; }
+  .footer .Coti {
+    grid-area: Coti; }
+
+/*cierro footer*/
+.section-articulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.card {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 275px;
+  height: 400px;
+  margin: 10px;
+  transition: 1s;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 25px 25px 1fr 1fr;
+  grid-template-areas: "img" "precio" "producto" "description"; }
+
+.card:hover {
+  filter: opacity(40%);
+  width: 285;
+  height: 410;
+  color: red; }
+
+.img {
+  grid-area: img;
+  border-radius: 30px; }
+
+.producto {
+  grid-area: producto; }
+
+.precio {
+  grid-area: precio; }
+
+.description {
+  grid-area: description; }
+
+.cotizacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+@media screen and (min-width: 720px) {
+  .texto_titulo {
+    border-bottom: dashed 3px #EFAD1F;
+    font-size: 70px; }
+  .slogan {
+    font-size: 20px; }
+  .section {
+    grid-area: section;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "peces filtros calentadores" "herramientas peceras sustratos" "luces plantas insumos"; }
+  .section-conocenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "Insta Ubi Cono Coti"; }
+  .productos {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 1000px;
+    height: 450px;
+    margin: 10px; } }
+
+/*cierra columna-principal*/
